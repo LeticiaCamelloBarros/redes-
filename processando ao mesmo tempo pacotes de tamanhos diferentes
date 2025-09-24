@@ -1,0 +1,17 @@
+import os
+os.system("cls")
+
+tam_pacote1 = int(input("qual o tamanho do pacote 1 ?"))
+tam_pacote2 = int(input("qual o tamanho do pacote 2 ?"))
+pacote1_proc = 0
+pacote2_proc = 0
+
+
+taxa_de_processamento = 4
+lista_de_tamanhos = [tam_pacote1, tam_pacote2]
+tam_maior_pacote = max(lista_de_tamanhos)
+tam_menor_pacote = min(lista_de_tamanhos)
+print(tam_maior_pacote)
+print(tam_menor_pacote)
+
+# carregar os dois pacotes ao mesmo tempo , de tamanhos diferentes
