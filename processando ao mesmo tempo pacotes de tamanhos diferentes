@@ -2,24 +2,24 @@ import os
 os.system("cls")
 #=============esboço da lógica==================================
 #===============================================================
-def proc(num):
-    tx = 2
-    while True:
-        result = num - tx
-        print(f"{num}-{tx}={result}")
-        if result <= 0:
-            # se for == 0 , não irá incluir os casos em que o número referenciado é impar
-            break
-        num = result
+# def proc(num):
+#     tx = 2
+#     while True:
+#         result = num - tx
+#         print(f"{num}-{tx}={result}")
+#         if result <= 0:
+#             # se for == 0 , não irá incluir os casos em que o número referenciado é impar
+#             break
+#         num = result
 
 
-num1 = 12
-# testando a lógica com números pares
-num2 = 15
-# testando a lógica com números impares
-proc(num1)
-print("="*50)
-proc(num2)
+# num1 = 12
+# # testando a lógica com números pares
+# num2 = 15
+# # testando a lógica com números impares
+# proc(num1)
+# print("="*50)
+# proc(num2)
 #=====================================================================
 
 tam_pacote1 = int(input("qual o tamanho do pacote 1 ?"))
